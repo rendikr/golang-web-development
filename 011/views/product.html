@@ -1,0 +1,11 @@
+{{ template "layout" .}}
+
+{{ define "main" }}
+
+{{ range . }}
+  <div class="text">
+    Name : {{ .Name }} - {{ .Price }} - {{ .StockStatus }}
+  </div>
+{{ end }}
+
+{{ end }}
