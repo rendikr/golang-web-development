@@ -1,0 +1,16 @@
+{{ template "layout" .}}
+
+{{ define "main" }}
+<div class="text">
+  Product ID : {{ .ID }}
+</div>
+<div class="text">
+  Product Name : {{ .Name }}
+</div>
+<div class="text">
+  Product Price : {{ .Price }}
+</div>
+<div class="text">
+  Product Stock : {{ .Stock }}
+</div>
+{{ end }}
